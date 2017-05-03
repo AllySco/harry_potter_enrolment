@@ -1,4 +1,69 @@
 body {
+  background-image: url("parchment.jpg");
   background-size: 80em;
 }
 
+h2 {
+  font-family: cursive, monospace;
+  color: firebrick;
+  font-weight: bolder;
+}
+
+
+p {
+font-family: cursive, monospace;
+color: black;
+font-size: 16px;
+font-weight: bolder;
+}
+
+link {
+  font-family: cursive, monospace;
+  color: black;
+  font-weight: bolder;
+  font-size: 18px;
+}
+
+nav {
+  color: firebrick;
+  font-weight: bolder;
+  font-size: 18px;
+  font-family: cursive, monospace;
+
+
+}
+
+a {
+  font-family: cursive, monospace;
+  color: firebrick;
+  font-size: 16px;
+  font-weight: bolder;
+}
+
+hr {
+  border-color: black;
+}
+
+select {
+  background-color: azure;
+  font-weight: bold;
+  font-family: cursive, monospace;
+
+}
+
+li {
+  list-style: none;
+  color: black;
+  font-weight: bolder;
+  padding: 5px;
+  font-family: cursive, monospace;
+
+}
+
+
+input {
+  background-color: azure;
+  color: firebrick;
+  font-family: cursive, monospace;
+
+}
