@@ -1,0 +1,29 @@
+<form action="/students" method="POST">
+<ul>
+<li>
+<label for="first-name-field">First Name:</label>
+<input id="first-name-field" name="first_name" type="text"/>
+</li>
+<li>
+<label for="second-name-field">Second Name:</label>
+<input id="second-name-field" type="text" name="second_name">
+</li>
+<li>
+<label for="age">How old is the student?</label>
+<input min="11" type="number" id="age" name="age">
+</li>
+
+<li>
+<label for="house-select">Select student's house:</label>
+<select id="house-select" name="house_id">
+  <option value="1">Gryfindor</option>
+  <option value="2">Slytherin</option>
+  <option value="3">Ravenclaw</option>
+  <option value="4">Hufflepuff</option>
+</select>
+</li>
+
+<li>
+<input type="submit" value="Add Student">
+</ul>
+</form>

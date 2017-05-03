@@ -1,0 +1,16 @@
+<h2>Student Details</h2>
+
+<p>Name: <%= @student.full_name %></p>
+<p>Age: <%= @student.age %></p>
+<p>House: <%= @student.student_house.name %></p>
+
+<form action="/students/<%= @student.id %>/edit" method="get">
+<input type="submit" value="edit"/>
+</form>
+
+<form action="/students/<%= @student.id %>/delete" method="post">
+<input type="submit" value="delete"/>
+</form>
+
+
+
