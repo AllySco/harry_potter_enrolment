@@ -29,8 +29,6 @@ nav {
   font-weight: bolder;
   font-size: 18px;
   font-family: cursive, monospace;
-
-
 }
 
 a {
@@ -48,7 +46,6 @@ select {
   background-color: azure;
   font-weight: bold;
   font-family: cursive, monospace;
-
 }
 
 li {
@@ -60,10 +57,8 @@ li {
 
 }
 
-
 input {
   background-color: azure;
   color: firebrick;
   font-family: cursive, monospace;
-
 }
